@@ -239,6 +239,10 @@ background-color:#cda1b0;
 	padding-left: 3%;
 	margin-bottom: 5%;
 }
+.title{
+	overflow: hidden;
+	margin-bottom: 5%;
+}
 
  span {
    margin-top: 1em;
@@ -277,7 +281,9 @@ progress { background:#a35968;  }
 	 position: relative; 
 }
 .details{
-	padding-left: 5%;
+	width: 75%;
+    text-align: center;
+    margin: 0 auto;
 }
 img{
 	height: 40%;
