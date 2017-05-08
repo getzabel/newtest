@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,|Sacramento" rel="stylesheet">
+<title>Getzabel Nambo | Digital Designer</title>
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<link rel="stylesheet" type="text/css" href="css/flexbox.css">
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" >
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+<script src="js/jquery.easings.min.js"></script>
+
+
+<!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+<script type="text/javascript" src="js/scrolloverflow.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+
+<script type="text/javascript" src="js/javascript.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#fullpage').fullpage({
+		css3: true,
+		fitToSection: false,
+		anchors: ['HOME', 'ABOUT', 'WORK', 'CONTACT'],
+	menu: '#myMenu',
+	verticalCentered: false,
+	continuousVertical: true,
+	scrollOverflow:true
+
+	});
+
+})
+
+
+</script>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    jQuery('.toggle-nav').click(function(e) {
+        jQuery(this).toggleClass('active');
+        jQuery('#myMenu').toggleClass('active');
+ 
+        e.preventDefault();
+    });
+});
+
+</script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+<div class="wrapper">
+	<header>
+	
+	<div class="logo-mobile"><a href="#HOME">
+
+			<img src="file:///Users/getzabelnambo/Desktop/getzabel.github.io/images/logo.png" ></a>
+	</div>
+	<nav>
+		<ul id="myMenu">
+			<li data-menuanchor="HOME" class="active"><a href="#HOME">HOME</a></li>
+			<li data-menuanchor="ABOUT"><a href="#ABOUT">ABOUT</a></li>
+			<li data-menuanchor="WORK"><a href="#WORK">WORK</a></li>
+			<li data-menuanchor="CONTACT"><a href="#CONTACT">CONTACT</a></li>
+		</ul>
+	 
+	</nav>
+	
+
+</header>
+</div>
+	<div id="fullpage">
+
+		<div class="section HOME" data-anchor="#HOME">
+				
+				<div class="logo"> <!-- starts logo-->
+					
+
+					<img src="file:///Users/getzabelnambo/Desktop/getzabel.github.io/images/logotype_portfolio.svg"/>
+					
+											
+				</div> <!-- ends logo-->
+
+		</div>
+
+		<div class="section wine " data-anchor="#ABOUT">
+			<div class="left">
+				
+			</div>
+			<div class="right responsiveHeight">
+				<div class="complete  fp-auto-height-responsive">
+				<div class="bio">
+				<h3> Hola, </h3>
+					<p> My Name is Getzabel Nambo. I'm a Digital Designer from Mexico City living in Sydney, that loves spending her days experimenting with HTML and CSS. When I'm offline you can find me in the ceramic studio playing with clay, or on random road trips with my husband. I also enjoy taking long walks, experimenting in the kitchen, and reading.
+
+					</p>
+				</div>
+				<div class="education  responsiveHeight">
+					<h1> Education </h1>
+					<p> 2013<br> <h4>BA Art, Graphic Design / Visual Communications<br></h4>
+					<p>California State University, Los Angeles</p>
+					<br>
+					<p>	2012 <br><h4>Ceramic Certification<br></h4>
+					<p>	Glendale Community College</p>
+					<br>
+					<p>	2009 <br><h4>AA in Art<br></h4>
+						<p>Los Angeles Community College</p>
+				</div>
+				<div class="skills responsiveHeight">
+					<h1> Skills </h1>
+						<span>Illustrator</span>
+			          <progress value="90" max="100"></progress>
+			          <span>Photoshop</span>
+			          <progress value="80" max="100"></progress>
+			           <span>Wordpress</span>
+			          <progress value="85" max="100"></progress>
+			           <span>CSS3</span>
+			          <progress value="75" max="100"></progress>
+			           <span>HTML5</span>
+			          <progress value="75" max="100"></progress>
+			          
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="section rose" data-anchor="#WORK">
+			<div class="left">
+				
+			</div>
+			<div class="right ">
+				
+				<div class="slide" data-anchor="Groovylu"> 
+					<div class="groovylu">
+						<img src="file:///Users/getzabelnambo/Desktop/getzabel.github.io/images/mockup_groovylu.svg"/>
+					</div>
+					<div class="groovylu details">
+						<h2> <span>Groovylu </span></h2>
+						<p> sjldjsaldkhslfkhaskfhsafkhaklfhaklfhas</p>
+					</div>
+				 </div>
+				<div class="slide" data-anchor="GLpottery">
+					<div class="glpottery">
+					
+						<img src="file:///Users/getzabelnambo/Desktop/getzabel.github.io/images/mockup_GLpottery.svg"/>
+						<div class="glpottery details">
+							<h2> <span>GLpottery </span></h2>
+							<p> sjldjsaldkhslfkhaskfhsafkhaklfhaklfhas</p>
+						</div>
+					</div>
+				</div>
+				<div class="slide" data-anchor="100Cups"> 
+					<div class="100cups">
+						
+						<img src="file:///Users/getzabelnambo/Desktop/getzabel.github.io/images/mockup_100cups.svg"/>
+					</div>
+						<div class="100Cups details">
+							<h2> <span>100Cups </span></h2>
+							<p> sjldjsaldkhslfkhaskfhsafkhaklfhaklfhas</p>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+		<div class="section pink" data-anchor="#CONTACT">
+			<div class="left top">
+			 
+			</div>
+			<div class="right bottom">	
+					        
+				<footer>
+					<p><h5>Have a cool project in mind, and think I can help you with it?
+					 </h5></p>
+			
+				<div class="contact-form">
+
+					<form action="/my-handling-form-page" method="post">
+					    <div>
+					        <label for="name">Name:</label>
+					        <input type="text" id="name" name="user_name">
+					    </div>
+					    <div>
+					        <label for="mail">E-mail:</label>
+					        <input type="email" id="mail" name="user_mail">
+					    </div>
+					    <div>
+					        <label for="msg">Message:</label>
+					        <textarea id="msg" name="user_message"></textarea>
+					    </div>
+					    <div class="g-recaptcha" data-sitekey="6LdXdxwUAAAAACJlaUXyJSIxtch8LsBXjJT8MZDr"></div>
+					</form>
+					<div class="button">
+					  <button type="submit">Send </button>
+					</div>
+					
+
+					
+				</div>
+			</div>
+		
+		
+	</footer>
+</div>
+</body>
+
+</html>

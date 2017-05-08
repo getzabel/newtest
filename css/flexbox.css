@@ -1,0 +1,68 @@
+
+/* -------------------------------------------------- 
+   Flexbox
+-----------------------------------------------------*/
+
+
+/* Small size screen */
+@media screen and (min-width:380px){
+	 ul, li, a {
+		display:inline-block;
+	    
+}
+
+
+.HOME{
+	display:flex;
+	height: 100vh;
+	justify-content:center;
+	flex-direction:column;
+}
+
+.wrapper{
+	display:flex;
+}
+
+#myMenu {
+	display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+}
+/* -------------------------------------------------- 
+   Bigger screen styles
+-----------------------------------------------------*/
+
+@media screen and (min-width: 800px) { 
+	  .wrapper {
+  display:flex;
+  flex-flow:column;
+}
+
+.HOME{
+	display:flex;
+	
+}
+	.right {width: 40%}
+	.left{
+	   width: 60%;
+	  }
+.logo{
+
+	flex-grow: 3;
+	flex-direction:row;
+	align-self:center;
+
+
+}
+
+}
+nav{ display:flex;}
+
+}
+
+

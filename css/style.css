@@ -1,0 +1,457 @@
+header{
+	
+	position: fixed;
+	z-index: 100;
+	
+	
+}
+.logo-mobile{
+	display:none;
+}
+body{
+	font-family: "Montserrat", sans-serif;
+}
+
+
+p{
+	font-family: "Montserrat";
+ 	
+}
+li, a{
+   display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    color:#FFF;
+    position: relative;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+li.active a{	
+	color:#FFF;
+	font-size: 2.5rem;
+	display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color:#FFF;
+    position: relative;
+    font-weight: 200;
+
+}
+#myMenu{
+
+	display:flex;
+	 min-width: 100%;
+	 flex-direction:column;
+	 
+}
+.HOME{
+	background: url("file:///Users/getzabelnambo/Desktop/getzabel.github.io/images/profile_hoian_desktop_2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;  
+	
+	background-position: center center;
+	text-align:center;
+	margin:auto;
+	padding:0; 
+}
+
+.logo {
+	margin-top: 12%;
+	opacity:0.6;
+}
+
+.logo-mobile{
+	display:none;
+}
+
+
+h1 {
+	font-family: 'Sacramento', cursive;
+	font-size: 3rem;
+	color:#9e1b37;
+	line-height: 1.15em;
+	padding-left: 3%;
+	margin-bottom:1%;
+	z-index: 1000;
+}
+h2{display:inline;}
+h3{
+	font-family:"Montserrat";
+	 font-weight: 200;
+	font-size: 5rem;
+	color:#cda1b0;
+	padding-left: 3%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	
+}
+h4{
+	font-family:"Montserrat";
+	 font-weight: 400;
+	font-size: 1.2rem;
+	color:#8d99a6;
+	margin:0;
+	
+}
+h5{
+	font-family:"Montserrat";
+	 font-weight: 400;
+	font-size: 1.6rem;
+	color:#8d99a6;
+	margin:0;
+	
+}
+.education p{
+	margin-top: 0;
+	margin-bottom: 8px;
+	color:#8d99a6;
+	font-family:"Montserrat";
+	font-weight: 200;
+}
+p {
+	line-height: 1.45em;
+	margin-bottom: 20px;
+	color:#8d99a6;
+	font-family:"Montserrat";
+	font-weight: 400;
+	
+
+}
+label{
+	color: #8d99a6;
+}
+form input, form textarea {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 3%;
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+    font-size: 1.378rem;
+    line-height: 40px;
+    border: 0;
+    border-bottom: 2px solid #8d99a6;
+    -webkit-transition: border-color 300ms cubic-bezier(0.4, 0, 0.2, 1),color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 300ms cubic-bezier(0.4, 0, 0.2, 1),color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
+}
+form input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+  
+  text-decoration: none;
+  outline: none;
+}
+button:focus {
+  /* To give a little highlight on active elements */
+  border-color: red;
+  
+  text-decoration: none;
+  outline: none;
+}
+button [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+    background-color:#cda1b0;
+}
+ul {
+	color: #ccc;
+}
+h2 span { 
+    font-family: sacramento;
+    font-weight: 200;
+    font-size: 3rem;
+    color: #9e1b37;
+    padding-left: .5%;
+    margin-top: .3%;
+    margin-bottom: .3%;
+   
+    z-index: 100000;
+}
+
+button {
+    text-transform: none;
+    font-family: Montserrat;
+    float:right;
+    padding: 2%;
+    color: #fff;
+    font-weight: 200;
+}
+.pink{
+	background-color: #a35968;
+}
+.rose{
+background-color:#cda1b0;
+}
+.wine{
+	background-color:#9e1b37;
+}
+.left{
+	width: 25vw;
+
+	float:left;
+
+}
+.right{
+	width: 75vw;
+	height: 100vh;
+	background-color: #fff;
+	float:right;
+}
+.top{ 
+
+	height: 100vh;}
+}
+.bottom{ height: 100vh;}
+}
+.HOME{
+	height: 100vh;
+}
+.ABOUT{
+	
+	display:flex;
+	overflow: auto;
+	max-height: 100vh;
+	
+}
+.complete{
+	min-height: auto;
+	overflow-y:visible;
+}
+.bio{
+	max-width: 50%;
+	margin-left: 3%;
+	width: calc(60% - 1em);
+	margin:0 auto;
+
+	}
+.education{
+	overflow: hidden;
+	width: 55%;
+	float:left;
+	padding-left: 3%;
+}
+.skills{
+	overflow:hidden;
+	width:35%;
+	float:left;
+	padding-left: 3%;
+	margin-bottom: 5%;
+}
+
+ span {
+   margin-top: 1em;
+    position: relative;
+    font-size: 1em;
+    color:#8d99a6;
+    float: left;
+    
+  }
+   progress {
+    background-color:#a35968;
+    border: 0;
+    height: 1em;
+    width: 100%;
+}
+progress::-webkit-progress-value { background:#a35968; }
+progress::-moz-progress-bar { background:#a35968;  }
+progress { background:#a35968;  }
+
+.WORK{
+	height: 100vh;
+	display:flex;
+}
+.CONTACT{
+	max-height: 100vh;
+	display:flex;
+}
+.contact-form{
+	margin-top: 10%;
+}
+.groovylu img{
+	height: 40%;
+	width:100%;
+	object-fit: contain;
+	overflow: hidden;
+	 position: relative; 
+}
+.details{
+	padding-left: 5%;
+}
+img{
+	height: 40%;
+	width:100%;
+	object-fit: contain;
+	overflow: hidden;
+	 position: relative; 
+}
+.fp-controlArrow.fp-prev {
+    left: 26%;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #a35968 transparent transparent;
+}
+
+nav a:hover:after {
+    content: "";
+    border-bottom: 1px solid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+}
+
+a:visited {
+    color:#fff;
+}
+footer{
+	padding: 5%
+}
+.social{
+	float:left;
+	margin-bottom:10%; 
+	margin-top: 5%;
+	width: 100%;
+
+}
+
+
+/*MEDIA QUERY*/
+@media only screen and (min-width:320px) and (max-width: 640px){
+
+header{
+	left: 50%;
+	right: 50%;
+	margin:0 auto;
+    display:flex;
+    position: fixed;
+    flex-direction:column-reverse
+}
+nav {
+  	flex-direction:column-reverse;
+  	justify-content: flex-end;
+    font-size: .6rem; 
+    margin:0 auto;
+    padding-left: 0px;
+}
+nav a:hover:after {
+    content: "";
+    border-bottom: 2px solid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3%;
+}
+
+.HOME{
+	background: url("file:///Users/getzabelnambo/Desktop/getzabel.github.io/images/profile_hoian_mobile_portrait.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: center center;
+	text-align:center;
+	margin:auto;
+	padding:0
+
+}
+.ABOUT{
+	
+	display:flex;
+	overflow-y:auto;
+}
+ul, li{
+	justify-content:space-around;
+}
+#myMenu{
+	
+	
+	padding-left: 0px;
+	
+}
+
+.logo-mobile{
+	display:inline-flex;
+	
+	
+   
+}
+.logo{
+	display:none;
+}
+
+.left{
+	 width: 100vw;
+    height: 30vh;
+   
+}
+.right{
+	 width: 100vw;
+    height: 70vh;
+    background-color: #fff;
+   
+}
+.bio{
+	
+	margin-left: 3%;
+	width: calc(90% - 1em);
+	}
+.education{
+	overflow: hidden;
+	width: 100%;
+	
+	padding-left: 3%;
+}
+.skills{
+	overflow:hidden;
+	width:100%;
+	
+	padding-left: 3%;
+}
+.fp-controlArrow {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+    position: absolute;
+    z-index: 4;
+  
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+    -webkit-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.fp-controlArrow.fp-prev {
+    left: 3%;
+    width: 0;
+    border-width: 20.5px 18px 20.5px 0;
+    border-color: transparent #a35968 transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 20.5px 0 20.5px 18px;
+    border-color: transparent transparent transparent#a35968;
+}
+.wrapper{
+	display:flex;
+}
+.responsiveHeight{
+	height: auto !important;
+}
+
+}
+
+
+
+@media screen and (min-width:641px) and (max-width: 850px){
+.HOME{
+	background: url("file:///Users/getzabelnambo/Desktop/getzabel.github.io/images/profile_hoian_16x10_desktop.jpg");
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	background-size: 100% auto;
+}
+
+}
